@@ -1,0 +1,49 @@
+.home{
+    margin-top:20px ;
+}
+.homeSlider h1{
+    font-size: 45px;
+}
+.homeSlider p{
+    margin: 20px 0;
+}
+.homeSlider ul{
+    position: absolute;
+    bottom: 20px;
+    /* border: 2px solid red; */
+
+}
+.homeSlider ul li{
+    border: 2px solid #b8b7b7;
+    border-radius: 50%;
+    padding: 10px;
+        /* border: 2px solid red; */
+
+}
+.homeSlider ul li button{
+    background: transparent !important;
+    color: transparent !important;
+    /* border: 2px solid red; */
+}
+.homeSlider ul li button::before{
+    font-size: 15px;
+    color:#0f3460 ;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+    /* border: 10px solid red; */
+}
+.box {
+    display: flex !important;
+}
+.box .left{
+    width: 70%;
+}
+.box .right{
+    width: 30%;
+}
+.box .right img{
+    width: 100%;
+    height: 100%;
+}
